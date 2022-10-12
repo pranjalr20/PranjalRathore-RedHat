@@ -61,6 +61,7 @@ class TransposeMultiplication
         n = s.nextInt();
         int a[][] = new int[p][q];
         int b[][] = new int[m][n];
+	//enter the elements line by line //
         System.out.println("Enter all the elements of first matrix:");
         for (int i = 0; i < p; i++) 
         {
@@ -69,6 +70,7 @@ class TransposeMultiplication
                 a[i][j] = s.nextInt();
             }
         }
+	//enter the elements line by line //
         System.out.println("Enter all the elements of second matrix:");
         for (int i = 0; i < m; i++) 
         {
