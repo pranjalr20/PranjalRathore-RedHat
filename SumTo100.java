@@ -1,6 +1,4 @@
 import java.io.PrintStream;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
@@ -28,9 +26,8 @@ public class SumTo100 implements Runnable {
         System.out.println();
     }
 
-    
+    final Stat stat = new Stat();
     public void run() {
-        final Stat stat = new Stat();
 
         comment("Show all solutions that sum to 100");
         final int givenSum = 100;
