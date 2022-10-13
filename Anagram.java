@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.Scanner;
-import java.util.spi.ToolProvider;
 
 class Anagram {
   public static void main(String[] args) {
